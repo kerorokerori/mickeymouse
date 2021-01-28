@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+	
+</head>
+
+<body>
+<form action="insert.php" method="POST">
+Username
+<input  type="text" name="username">
+<br>
+Password
+<input  type="password" placeholder="password" name="password" required>
+<br>
+Gender
+<input type="radio" name="gender" value="m" required >Male
+<input type="radio" name="gender" value="f" required>Female
+<br>
+Email
+<input type="mail" placeholder="email" name="email" required>
+<br>
+<!--Wallet type
+<select name="walletcoin">	
+	<option selected hidden>Select wallet</option>
+	<option>BTC</option>
+	<option>LTC</option>
+	<option>ETH</option>
+</select>
+-->
+<br>
+<input type="submit" value="Register">
+</form>
+
+</body>
+
+</html>
